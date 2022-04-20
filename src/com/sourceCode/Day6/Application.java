@@ -12,7 +12,7 @@ public class Application {
         values.add(23);
         values.add(33);
 
-        for (Integer value: values
+        for (Integer value: values //advanced for each loop
              ) {
             System.out.println(value);
 
