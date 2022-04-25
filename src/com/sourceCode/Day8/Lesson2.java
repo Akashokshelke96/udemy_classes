@@ -4,19 +4,19 @@ import java.util.*;
 
 public class Lesson2 {
     public static void main(String[] args) {
-        HashSet<Integer> list = new HashSet<Integer>();
+        HashSet<Integer> hashSet = new HashSet<Integer>();
 
-        list.add(12);
-        list.add(13);
-        list.add(14);
-        list.add(15);
-        list.add(18);
-        list.add(17);
+        hashSet.add(12);
+        hashSet.add(13);
+        hashSet.add(14);
+        hashSet.add(15);
+        hashSet.add(18);
+        hashSet.add(17);
 
-        //CONVERTING THE HASHSET IN TO A LIST FROM THE FOLLOWING COMMAND; to sort it , as list can be sorted
+        //CONVERTING THE HASHSET IN TO A LIST FROM THE FOLLOWING COMMAND; to sort it , as hashSet can be sorted
 
-        List<Integer> list2 = new ArrayList<Integer>(list); //passing the hashset as input to LIST generating command
-        Collections.sort(list2); //sorting the list as hashset cannot be sorted by this command;
+        List<Integer> list2 = new ArrayList<Integer>(hashSet); //passing the hashset as input to LIST generating command
+        Collections.sort(list2); //sorting the hashSet as hashset cannot be sorted by this command;
         System.out.println(list2);
 
         //SIMILARLY IT CAN ALSO SORT OUT THE STRINGS BASED ON ALPHABETICAL ORDER JUST CONVERT THE SET IN TO A ARRAYLIST ADN SORT

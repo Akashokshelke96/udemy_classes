@@ -1,7 +1,7 @@
 package com.sourceCode.Day8;
 
 public class Employee implements Comparable<Employee> {         //object will be called in lesson 2
-    String name;       // implementing the comparable interface with <emmploees> as the parameter will do the SORTING we wanted
+    String name;       // implementing the comparable interface with <emplo> as the parameter will do the SORTING we wanted
     int salary;
     String department;
 
