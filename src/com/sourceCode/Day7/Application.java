@@ -22,7 +22,7 @@ public class Application {
         animals.add(animal4);
         animals.add(animal5);
         animals.add(animal6);//this is the repeated object and is also used in the hashset which only caters to UNIQUE values;
-        //but using the EQUALS override in the animals classes we can tackle this shortfall .i.e field to field comparision is done
+        //but using the EQUALS override in the animals classes we can tackle this shortfall .i.e field to field comparison is done
         //removing this EQUALS method will print even teh repeated elements in the HASHSET.
 
         System.out.println(animal2.equals(animal6)); //if removed OVERRIDE toEquals method it will show false

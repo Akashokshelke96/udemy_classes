@@ -28,10 +28,10 @@ public class Application {
         System.out.println(list1.contains(14));
         System.out.println(list1.isEmpty());
 
-        //retain all saves only those elements mentioned in list 2 from list 1;
+        //retain all saves only those elements mentioned in list 2, from list 1;
 
         list1.retainAll(list2);
-        System.out.println(list1);//the common item betn the two list remains only
+        System.out.println(list1);//the common item between the two list remains only
 
 
        // System.out.println(list1);
