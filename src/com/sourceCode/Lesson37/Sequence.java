@@ -7,9 +7,9 @@ public class Sequence {
 //        value++; //since this contains 3 operations in between which the control might shift to another thread, and irregular output might return
 //        return value;  //so we used synchronised(this){ code    } to tackle this fallback
 //}
-    public int getNext(){
-        synchronized (this) {
-            value++; //
+    public int getNext(){   //or  public synchronized int getNext(){
+        synchronized (this) {  // value++;
+            value++;             //return value;
             return value;
         }
     }
